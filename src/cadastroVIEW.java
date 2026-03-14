@@ -154,6 +154,8 @@ public class cadastroVIEW extends javax.swing.JFrame {
         
         cadastroNome.setText("");
         cadastroValor.setText("");
+        listagemVIEW objlistagem = new listagemVIEW();
+        objlistagem.setVisible(true);
     }//GEN-LAST:event_btnCadastrarActionPerformed
 
     private void btnProdutosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProdutosActionPerformed
